@@ -1,0 +1,23 @@
+.hero-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url('hero-background.jpg');
+    background-size:cover;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.inner h1 {
+    color: #FBF2B7;;
+    background-color:#029652;
+    padding:1px 10px;
+    border-radius: 50px ;
+
+}
