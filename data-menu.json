@@ -1,0 +1,69 @@
+{
+    "pratos": [
+      {
+        "nome": "Pizza de Queijo",
+        "preco": "74.90",
+        "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D"
+      },
+      {
+        "nome": "Risotto",
+        "preco": "44.90",
+        "imagem": "https://images.unsplash.com/photo-1682428617976-f25633ed8469?q=80&w=1806&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "nome": "Spaghetti",
+        "preco": "39.90",
+        "imagem": "https://images.unsplash.com/photo-1713561058969-793049b01712?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "nome": "Lasagna",
+        "preco": "44.90",
+        "imagem": "https://images.unsplash.com/photo-1709429790175-b02bb1b19207?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFzYW5oYXxlbnwwfHwwfHx8MA%3D%3D"
+      }
+    ],
+    "bebidas": [
+      {
+        "nome": "Água",
+        "preco": "3.90",
+        "imagem": "https://marcasmais.com.br/wp-content/uploads/2020/10/coca-cola-agua.jpg"
+      },
+      {
+        "nome": "Suco de Laranja",
+        "preco": "6.90",
+        "imagem": "https://img.freepik.com/free-photo/fresh-orange-juice-glass-dark-background_1150-45560.jpg"
+      },
+      {
+        "nome": "Limoncello",
+        "preco": "19.90",
+        "imagem": "https://media.istockphoto.com/id/1351893548/pt/foto/limoncello-in-small-glasses-and-bottle-italian-lemon-liqueur-fresh-italian-lemons-light.jpg?s=612x612&w=0&k=20&c=g1qeRBtS0VizLjy5QDOUJ_iDcUqMyk3KThGpcThUjH0="
+      },
+      {
+        "nome": "Aperol Spritz",
+        "preco": "24.90",
+        "imagem": "https://img.pikbest.com/wp/202343/capture-capturing-the-essence-of-a-refreshing-aperol-spritz-cocktail-on-textured-dark-table_9985441.jpg!sw800"
+      }
+    ],
+    "sobremesas": [
+      {
+        "nome": "Tiramisù",
+        "preco": "29.90",
+        "imagem": "https://t3.ftcdn.net/jpg/03/28/01/60/360_F_328016056_Ro67OjyMT2dnGFL6v4VKKoAkIcakElTW.jpg"
+      },
+      {
+        "nome": "Panna cotta",
+        "preco": "19.90",
+        "imagem": "https://media.istockphoto.com/id/178472102/pt/foto/bonito-panna-cotta-com-morangos.jpg?s=612x612&w=0&k=20&c=qxBYt0SZDib1ZkQ3Y8WKHqTZP_1T8_xhjMjT7zNovhU="
+      },
+      {
+        "nome": "Cannolli",
+        "preco": "9.90",
+        "imagem": "https://f.i.uol.com.br/folha/comida/images/112941234.jpeg"
+      },
+      {
+        "nome": "Gelato",
+        "preco": "14.90",
+        "imagem": "https://www.walksinsiderome.com/wp-content/uploads/2022/11/gelato-class-in-rome.jpg"
+      }
+    ]
+  }
+  
