@@ -1,5 +1,6 @@
 .hero-section {
     height: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -15,7 +16,7 @@
 }
 
 .inner h1 {
-    color: #FBF2B7;;
+    color: #FBF2B7;
     background-color:#029652;
     padding:1px 10px;
     border-radius: 50px ;
