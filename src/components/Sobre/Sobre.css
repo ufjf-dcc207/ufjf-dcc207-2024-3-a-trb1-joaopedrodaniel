@@ -1,0 +1,45 @@
+.sobre {
+    justify-content: center;
+    height: 800px;
+    display: flexbox;
+    place-items: center;
+    margin: 60px;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 215%;
+    margin-top: 30px;
+    color:#029652;
+    text-align: center;
+}
+.subtitle {
+    color:#029652;
+    text-align: center;
+}
+.italy {
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "image text";
+}
+
+.img-content {
+    position: static;
+    margin: 10px;
+    grid-area: image;
+    height: 60%;
+    width: auto;
+}
+
+.text-content {
+    margin: 10px;
+    grid-area: text;
+    color:#000000;
+    justify-content: left;
+}
