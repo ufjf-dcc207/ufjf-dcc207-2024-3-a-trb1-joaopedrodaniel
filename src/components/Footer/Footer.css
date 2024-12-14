@@ -1,9 +1,44 @@
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #FBF2B7;
+    color: #029652;
     text-align: center;
-    padding: 1rem;
+    padding: 4rem;
     position: fixed;
     width: 100%;
+    height: 100px;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 140%;
+    object-fit: contain;
+    margin-left: 10rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; 
+    font-size: 0.8rem; 
+    margin-right: 30rem; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem; 
+}
+
+.social-icon {
+    color: #029652;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #027c4f;
 }
