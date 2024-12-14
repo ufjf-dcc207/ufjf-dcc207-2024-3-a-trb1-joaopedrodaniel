@@ -1,21 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: bold;
+}
+
 .navbar {
-    background-color: #333;
-    padding: 1rem;
+    background-color: #FBF2B7;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.navbar-logo {
+    height: 100%;
+    object-fit: contain;
+    padding-left: 3.5rem;
 }
 
 .navbar-list {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    gap: 8rem;
     margin: 0;
-    padding: 0;
+    padding-right: 5rem;
 }
 
 .navbar-item a {
-    color: white;
+    color: #029652;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .navbar-item a:hover {
-    text-decoration: underline;
+    color: #027c4f;
 }
