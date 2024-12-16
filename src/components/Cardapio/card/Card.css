@@ -4,17 +4,31 @@
 
 .card {
     display: flex;
-    width: 40%;
+    width: 100%;
     max-width: 520px;
     min-width: 300px;
-    height: 200px;
+    height: 220px;
     background-color: #FBF2B7;
     border-radius: 25px;
-    border: 0.5mm solid #FF0707;
+    border: 0.2mm solid #FF0707;
 }
 
 .card img {
     width: 40%;
-    padding: 5px;
+    padding: 7px;
     border-radius: 25px;
+}
+
+.info-alimentos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding-left: 20px;
+    gap: 15px;
+}
+
+.preco-alimento {
+    color: #FF0707;
 }

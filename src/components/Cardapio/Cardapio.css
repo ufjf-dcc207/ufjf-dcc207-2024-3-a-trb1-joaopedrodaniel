@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .titulo-cardapio {
     color: #FF0707;
     width: 100%;
@@ -12,12 +19,15 @@
 }
 
 .cards {
-    width: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-content: center;
-    gap: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
+    gap: 20px;
+    padding-bottom: 60px;
+    border-bottom: 0.2mm solid #FF0707;
+}
+
+.botoes {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
