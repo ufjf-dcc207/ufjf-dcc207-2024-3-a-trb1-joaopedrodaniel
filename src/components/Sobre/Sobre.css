@@ -1,7 +1,6 @@
 .sobre {
     justify-content: center;
-    height: 800px;
-    display: flexbox;
+    height: fit-content;
     place-items: center;
     margin: 60px;
     max-width: 100%;
@@ -33,7 +32,7 @@
     position: static;
     margin: 10px;
     grid-area: image;
-    height: 60%;
+    height: 282px;
     width: auto;
 }
 
