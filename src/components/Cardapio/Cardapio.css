@@ -1,8 +1,23 @@
 
 * {
     color: black;
+    box-sizing: border-box;
 }
 
 .titulo-cardapio {
-    color: red;
+    color: #FF0707;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cards {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
 }

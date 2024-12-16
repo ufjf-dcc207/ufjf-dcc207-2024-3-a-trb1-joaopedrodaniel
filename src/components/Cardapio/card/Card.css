@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    width: 40%;
+    max-width: 520px;
+    min-width: 300px;
+    height: 200px;
+    background-color: #FBF2B7;
+    border-radius: 25px;
+    border: 0.5mm solid #FF0707;
+}
+
+.card img {
+    width: 40%;
+    padding: 5px;
+    border-radius: 25px;
+}

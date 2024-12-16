@@ -4,7 +4,7 @@ import './Cardapio.css'
 
 export default function Cardapio () {
     return (
-        <div>
+        <div className='cardapio'>
             <h1 className="titulo-cardapio">CARDÁPIO</h1>
             <div className='botoes'>
                 <Botao />
@@ -12,6 +12,9 @@ export default function Cardapio () {
                 <Botao />
             </div>
             <div className='cards'>
+                <Card />
+                <Card />
+                <Card />
                 <Card />
             </div>
         </div>
