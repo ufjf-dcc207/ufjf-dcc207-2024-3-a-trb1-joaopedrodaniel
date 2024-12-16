@@ -18,16 +18,31 @@
     margin-top: 40px;
 }
 
+.botoes {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao {
+    background-color: #FF0707;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+
+    h3 {
+        color: #FBF2B7;
+    }
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding-bottom: 60px;
     border-bottom: 0.2mm solid #FF0707;
-}
-
-.botoes {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
 }
