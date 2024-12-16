@@ -1,4 +1,5 @@
 import './App.css'
+import Cardapio from './components/Cardapio';
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Navbar />
       <HeroSection/>
+      <Cardapio />
       <Sobre/>
       <Footer />
     </div>
